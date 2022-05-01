@@ -1538,3 +1538,57 @@ body::-webkit-scrollbar-thumb:hover {
     color: var(--sonic-silver);
     font-size: var(--fs-9);
 }
+
+/* ===== BLOG ===== */
+.blog {
+    margin-bottom: 30px;
+}
+
+.blog-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+}
+
+.blog-card {
+    min-width: 100%;
+    scroll-snap-align: start;
+}
+
+.blog-banner {
+    width: 100%;
+    border-radius: var(--border-radius-md);
+    margin-bottom: 20px;
+}
+
+.blog-category {
+    width: max-content;
+    color: var(--salmon-pink);
+    font-size: var(--fs-8);
+}
+
+.blog-title {
+    color: var(--eerie-black);
+    font-size: var(--fs-5);
+    font-weight: var(--weight-600);
+    line-height: 1.4;
+    margin-bottom: 5px;
+    transition: var(--transition-timing);
+}
+
+.blog-title:hover {
+    color: var(--salmon-pink);
+}
+
+.blog-meta {
+    color: var(--sonic-silver);
+    font-size: var(--fs-7);
+}
+
+.blog-meta cite {
+    font-style: normal;
+    color: var(--davys-gray);
+}
