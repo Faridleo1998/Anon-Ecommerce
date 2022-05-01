@@ -1758,3 +1758,110 @@ footer {
     display: inline;
     color: inherit;
 }
+
+/* ===== RESPONSIVE ===== */
+/* Responsive larger than 480px screen */
+@media (min-width: 480px) {
+    /* Custom properties */
+    :root {
+        /* Typography */
+        --fs-1: 1.875rem;
+    }
+
+    /* HEADER */
+    .header-top {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--cultured);
+    }
+
+    .header-social-container,
+    .header-top-actions {
+        display: none;
+    }
+
+    .header-alert-news {
+        color: var(--sonic-silver);
+        font-size: var(--fs-9);
+        text-transform: uppercase;
+    }
+
+    .header-alert-news b {
+        font-weight: var(--weight-500);
+    }
+
+    .header-main {
+        padding: 25px 0;
+    }
+
+    .mobile-bottom-navigation {
+        border-top-left-radius: var(--border-radius-md);
+        border-top-right-radius: var(--border-radius-md);
+    }
+
+    /* BANNER */
+    .slider-item {
+        aspect-ratio: 5 / 3;
+    }
+
+    .banner-container {
+        top: 50%;
+        right: auto;
+        bottom: auto;
+        transform: translateY(-50%);
+        max-width: 320px;
+    }
+
+    .banner-subtitle {
+        --fs-7: 1rem;
+    }
+
+    .banner-text {
+        display: block;
+        color: var(--sonic-silver);
+        font-size: var(--fs-7);
+        font-weight: var(--weight-500);
+        margin-bottom: 10px;
+    }
+
+    .banner-text b {
+        font-size: var(--fs-2);
+    }
+
+    .banner-btn {
+        padding: 7px 20px;
+    }
+
+    /* PRODUCT */
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    /* CTA */
+    .cta-content {
+        padding: 40px;
+    }
+
+    .cta-content .discount {
+        --fs-11: 0.875rem;
+        padding: 5px 10px;
+    }
+
+    .cta-title {
+        --fs-5: 1.5rem;
+    }
+
+    .cta-text {
+        --fs-7: 1rem;
+    }
+
+    .cta-btn {
+        --fs-9: 1rem;
+    }
+
+    /* FOOTER */
+    .copyright {
+        --fs-8: 0.875rem;
+    }
+}
