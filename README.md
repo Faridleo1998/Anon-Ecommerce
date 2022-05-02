@@ -1,7 +1,7 @@
 # Watches Website
 
 ![Design preview Anon Ecommerce Website](./website-demo-image/desktop.png)
-![Design preview Anon Ecommerce Website](./website-demo-image/mobile.png.png)
+![Design preview Anon Ecommerce Website](./website-demo-image/mobile.png)
 
 ## Bienvenido! 👋
 
