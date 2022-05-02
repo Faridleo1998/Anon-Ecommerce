@@ -1394,11 +1394,11 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .testimonial-card {
-    margin-bottom: 25px;
+    padding: 30px 20px;
     border: 1px solid var(--cultured);
     border-radius: var(--border-radius-md);
-    padding: 30px 20px;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .testimonial-banner {
@@ -2090,6 +2090,10 @@ footer {
         --fs-2: 1.125rem;
     }
 
+    body {
+        padding-bottom: 0;
+    }
+
     /* REUSED STYLE */
     .container {
         max-width: 980px;
@@ -2396,7 +2400,7 @@ footer {
     }
 
     /* TESTIMONIAL, CTA & SERVICE */
-    .testimonial-box {
+    .testimonials-box {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
