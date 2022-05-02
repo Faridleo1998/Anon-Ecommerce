@@ -2538,3 +2538,26 @@ footer {
         padding-bottom: 50px;
     }
 }
+
+/* Responsive larger than 1400px screen */
+@media (min-width: 1400px) {
+    /* BASE */
+    html {
+        font-size: 18px;
+    }
+
+    /* REUSED STYLE */
+    .container {
+        max-width: 1350px;
+    }
+
+    /* BANNER */
+    .slider-item {
+        height: 450px;
+    }
+
+    .banner-content {
+        left: 110px;
+        max-width: 460px;
+    }
+}
